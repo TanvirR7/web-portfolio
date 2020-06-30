@@ -1,0 +1,57 @@
+
+body{
+    font-family: 'Roboto Mono', monospace;
+    margin:0;
+}
+
+.halfwidth{
+   width: 40%;
+   float: left;
+   margin-left: 5%;
+   padding: 2%;
+
+}
+.top-banner{
+    
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+section{
+    height: 500px;
+    scroll-padding-bottom: 150Spx;
+}
+.blue{
+    color:blue;
+}
+
+span{
+    color: cornflowerblue;
+    font-size: 50px;
+}
+.name{
+    color: crimson;
+}
+
+.link-button{
+    text-decoration:none;
+    color: white;
+    background-image: linear-gradient(lightsalmon, tomato);
+    background-color: orangered;
+    padding:10px 20px;
+    border-radius: 5px;
+    font-weight: 800;
+}
+p{
+    color: rgb(66, 64, 64);
+    
+}
+.dream-area{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position:right;
+
+}
+img{
+    width:100%;
+}
