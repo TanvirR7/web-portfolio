@@ -19,7 +19,7 @@ body{
 
 section{
     height: 500px;
-    scroll-padding-bottom: 150Spx;
+    scroll-padding-bottom: 150px;
 }
 .blue{
     color:blue;
@@ -50,8 +50,33 @@ p{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position:right;
+    margin-bottom: 170px;
 
 }
-img{
-    width:100%;
+
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    height: 50%;
+}
+.experience-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+
+#full-stack{
+    border-left: 8px solid;
+    border-image: linear-gradient(180deg, lightsalmon,tomato);
+    border-image-slice: 1;
+}
+#baby-web{
+    border-left: 8px solid;
+    border-image: linear-gradient(180deg, blue,rgb(92, 210, 240));
+    border-image-slice: 1;
+
+}
+.foot{
+    text-align: center;
+    font-size: 12px;
+
 }
